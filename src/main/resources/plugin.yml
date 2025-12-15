@@ -1,0 +1,14 @@
+name: FlyPlugin
+version: 1.0
+main: me.yourname.fly.FlyPlugin
+api-version: 1.21
+
+commands:
+  fly:
+    description: Toggle flight
+    usage: /fly <on|off>
+
+permissions:
+  fly.use:
+    description: Allows use of /fly
+    default: op
